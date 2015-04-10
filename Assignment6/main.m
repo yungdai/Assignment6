@@ -12,7 +12,11 @@
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         Car2 *honda = [[Car2 alloc] init];
-        honda.running = YES;                // [honda setRunning:YES]
+        
+        // No longer able to run because it's a static property now
+        //honda.running = YES;                // [honda setRunning:YES]
+        
+        
         NSLog(@"%d", honda.running);        // [honda isrunning]
     }
     return 0;

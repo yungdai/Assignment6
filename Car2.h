@@ -10,8 +10,11 @@
 
 @interface Car2 : NSObject
 
-// settings custome getter/setter names
-@property (getter=isRunning) BOOL running;
+//// settings custome getter/setter names
+//@property (getter=isRunning) BOOL running;
+
+// Making the property readonly
+@property (getter=isRunning, readonly) BOOL running;
 
 - (void)startEngine;
 - (void)stopEngine;
