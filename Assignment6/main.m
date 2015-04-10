@@ -13,15 +13,25 @@
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         
-        Person *john = [[Person alloc]init];
-        john.name = @"John";
-        
         Car2 *honda = [[Car2 alloc] init];
-        honda.model = @"Honda Civic";
-        honda.driver = john;
-        john.car = honda;
+        NSMutableString *model = [NSMutableString stringWithString:@"Honda Civic"];
+        honda.model = model;
         
-                NSLog(@"%@ is driving the %@", honda.driver, honda.model);
+        NSLog(@"%@", honda.model);
+        [model setString:@"Nissa Versa"];
+        NSLog(@"%@", honda.model);            // Still "Honda Civic"
+        
+        
+// Weak and strong demo code
+//        Person *john = [[Person alloc]init];
+//        john.name = @"John";
+//        
+//        Car2 *honda = [[Car2 alloc] init];
+//        honda.model = @"Honda Civic";
+//        honda.driver = john;
+//        john.car = honda;
+//        
+//                NSLog(@"%@ is driving the %@", honda.driver, honda.model);
         
         // No longer able to run because it's a static property now
         //honda.running = YES;                // [honda setRunning:YES]

@@ -17,7 +17,8 @@
 // Making the property readonly
 // @property (getter=isRunning, readonly) BOOL running;
 
-@property (nonatomic) NSString *model;
+// working with the copy attribute
+@property (nonatomic, copy  ) NSString *model;
 @property (nonatomic, strong) Person *driver;
 
 
