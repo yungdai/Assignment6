@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Person.h"
 
 @interface Car2 : NSObject
 
@@ -14,9 +15,10 @@
 //@property (getter=isRunning) BOOL running;
 
 // Making the property readonly
-@property (getter=isRunning, readonly) BOOL running;
+// @property (getter=isRunning, readonly) BOOL running;
 
-- (void)startEngine;
-- (void)stopEngine;
+@property (nonatomic) NSString *model;
+@property (nonatomic, strong) Person *driver;
+
 
 @end

@@ -1,14 +1,16 @@
 //
-//  Car2.m
+//  Person.h
 //  Assignment6
 //
 //  Created by Yung Dai on 2015-04-10.
 //  Copyright (c) 2015 Yung Dai. All rights reserved.
 //
 
-#import "Car2.h"
+#import <Foundation/Foundation.h>
 
-@implementation Car2
+@interface Person : NSObject
+
+@property (nonatomic) NSString *name;
 
 
 @end

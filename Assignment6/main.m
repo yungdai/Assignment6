@@ -8,16 +8,26 @@
 
 #import <Foundation/Foundation.h>
 #import "Car2.h"
+#import "Person.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
+        
+        Person *john = [[Person alloc]init];
+        john.name = @"John";
+        
+        
         Car2 *honda = [[Car2 alloc] init];
+        honda.model = @"Honda Civic";
+        honda.driver = john;
+        
+                NSLog(@"%@ is driving the %@", honda.driver, honda.model);
         
         // No longer able to run because it's a static property now
         //honda.running = YES;                // [honda setRunning:YES]
         
         
-        NSLog(@"%d", honda.running);        // [honda isrunning]
+        // NSLog(@"%d", honda.running);        // [honda isrunning]
     }
     return 0;
 }
