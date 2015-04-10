@@ -16,10 +16,10 @@ int main(int argc, const char * argv[]) {
         Person *john = [[Person alloc]init];
         john.name = @"John";
         
-        
         Car2 *honda = [[Car2 alloc] init];
         honda.model = @"Honda Civic";
         honda.driver = john;
+        john.car = honda;
         
                 NSLog(@"%@ is driving the %@", honda.driver, honda.model);
         
