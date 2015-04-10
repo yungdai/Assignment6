@@ -10,7 +10,8 @@
 
 @interface Car2 : NSObject
 
-@property BOOL running;
+// settings custome getter/setter names
+@property (getter=isRunning) BOOL running;
 
 - (void)startEngine;
 - (void)stopEngine;
