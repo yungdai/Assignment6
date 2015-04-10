@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1AD7D3351AD810780051BB3E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD7D3341AD810780051BB3E /* main.m */; };
-		1AD7D33E1AD811DD0051BB3E /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD7D33D1AD811DD0051BB3E /* Car.m */; };
+		1AD7D3411AD820950051BB3E /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD7D3401AD820950051BB3E /* Car.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,8 +26,8 @@
 /* Begin PBXFileReference section */
 		1AD7D3311AD810780051BB3E /* Assignment6 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Assignment6; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AD7D3341AD810780051BB3E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1AD7D33C1AD811DD0051BB3E /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
-		1AD7D33D1AD811DD0051BB3E /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
+		1AD7D33F1AD820950051BB3E /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		1AD7D3401AD820950051BB3E /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,8 +69,8 @@
 		1AD7D33B1AD810D90051BB3E /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				1AD7D33C1AD811DD0051BB3E /* Car.h */,
-				1AD7D33D1AD811DD0051BB3E /* Car.m */,
+				1AD7D33F1AD820950051BB3E /* Car.h */,
+				1AD7D3401AD820950051BB3E /* Car.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -131,7 +131,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1AD7D33E1AD811DD0051BB3E /* Car.m in Sources */,
+				1AD7D3411AD820950051BB3E /* Car.m in Sources */,
 				1AD7D3351AD810780051BB3E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
