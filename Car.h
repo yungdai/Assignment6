@@ -11,6 +11,8 @@
 
 @interface Car : NSObject
 
+
+// this property code says that the Car class has a model as an attribute.
 @property (copy) NSString *model;
 
 
@@ -31,8 +33,8 @@
 - (double)maximumSpeedUsingLocale:(NSLocale *)locale;
 
 // Action methods
-- (void)startEngine;
-- (void)driveForDistance:(double)theDistance;
+//- (void)startEngine;
+//- (void)driveForDistance:(double)theDistance;
 - (void)driveFromOrigin:(id)theOrigin toDestination:(id)theDestination;
 - (void)turnByAngle:(double)theAngle;
 - (void)turnToAngle:(double)theAngle;
@@ -56,6 +58,12 @@
 
 // Singleton methods
 + (Car *)sharedCar;
+
+// Selector methods
+- (void)startEngine;
+- (void)driveForDistance:(NSNumber *)theDistance;
+- (void)turnByAngle:(NSNumber *)theAngle
+            quickly:(NSNumber *)useParkingBrake;
 
 
 @end
