@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>7BE5F12E-CE39-418F-989D-6A3840861714</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>BCB4DB1D92355A3B78F35D43C5B24654B1F0F2F6</key>
+		<string>https://github.com/yungdai/Assignment6.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Assignment6.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>BCB4DB1D92355A3B78F35D43C5B24654B1F0F2F6</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/yungdai/Assignment6.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>BCB4DB1D92355A3B78F35D43C5B24654B1F0F2F6</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>BCB4DB1D92355A3B78F35D43C5B24654B1F0F2F6</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Assignment6</string>
+		</dict>
+	</array>
+</dict>
+</plist>

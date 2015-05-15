@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-int main3(int argc, const char * argv[]) {
+int main(int argc, const char * argv[]) {
     @autoreleasepool {
         int valueForN = 1;
         
